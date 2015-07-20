@@ -1,4 +1,4 @@
-# mustache-sql
+# mustache-sql [![Build Status](https://travis-ci.org/hden/socketio-wildcard.svg?branch=master)](https://travis-ci.org/hden/socketio-wildcard)
 hipster-style SQL template
 
 ## install
