@@ -1,6 +1,6 @@
 {
   "name": "mustache-sql",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "hipster-style SQL template",
   "main": "index.js",
   "scripts": {
