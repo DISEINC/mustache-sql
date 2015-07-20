@@ -1,0 +1,37 @@
+{
+  "name": "mustache-sql",
+  "version": "0.0.0",
+  "description": "hipster-style SQL template",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hden/mustache-sql.git"
+  },
+  "keywords": [
+    "SQL",
+    "template",
+    "mustache"
+  ],
+  "author": "Hao-kang Den <haokang.den@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hden/mustache-sql/issues"
+  },
+  "homepage": "https://github.com/hden/mustache-sql#readme",
+  "dependencies": {
+    "mustache": "^2.1.2",
+    "mysql": "^2.8.0"
+  },
+  "devDependencies": {
+    "babel": "^5.6.23",
+    "chai": "^3.2.0",
+    "eslint": "^0.24.1",
+    "mocha": "^2.2.5"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
