@@ -17,5 +17,5 @@ render(template, parameter)
 
 ## features
 
-* `{{valu}}` and `{{{key}}}` are escaped by [node-mysql](https://github.com/felixge/node-mysql)
+* `{{value}}` and `{{{key}}}` are escaped by [node-mysql](https://github.com/felixge/node-mysql)
 * partials
