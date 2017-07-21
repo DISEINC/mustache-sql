@@ -4,14 +4,14 @@ import { escape, escapeId } from 'mysql/lib/protocol/SqlString'
 class Engine extends Writer {
   unescapedValue (token, context) {
     const value = context.lookup(token[1])
-    if (value) {
+    if (value || value === 0) {
       return escapeId(value)
     }
   }
 
   escapedValue (token, context) {
     const value = context.lookup(token[1])
-    if (value) {
+    if (value || value === 0) {
       return escape(value)
     }
   }

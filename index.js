@@ -29,7 +29,7 @@ var Engine = (function (_Writer) {
     key: 'unescapedValue',
     value: function unescapedValue(token, context) {
       var value = context.lookup(token[1]);
-      if (value) {
+      if (value || value === 0) {
         return (0, _mysqlLibProtocolSqlString.escapeId)(value);
       }
     }
@@ -37,7 +37,7 @@ var Engine = (function (_Writer) {
     key: 'escapedValue',
     value: function escapedValue(token, context) {
       var value = context.lookup(token[1]);
-      if (value) {
+      if (value || value === 0) {
         return (0, _mysqlLibProtocolSqlString.escape)(value);
       }
     }
